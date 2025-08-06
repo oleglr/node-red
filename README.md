@@ -44,6 +44,16 @@ If you want to run the latest code from git, here's how to get started:
 
         npm start
 
+## Deploying to Vercel
+
+This repository includes a minimal configuration for running Node-RED on [Vercel](https://vercel.com).
+The `api/index.js` file wraps Node-RED in an Express application and `vercel.json`
+sets up the build and routing.
+
+1. Install the Vercel CLI: `npm i -g vercel`
+2. Run `vercel` in the project root and follow the prompts.
+3. Open `https://<your-app>.vercel.app/red` to access the editor.
+
 ## Contributing
 
 Before raising a pull-request, please read our
